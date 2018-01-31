@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#F44336</item>
+        <item name="colorPrimaryDark">#D32F2F</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    //Button
+    <style name="Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:background">#F44336</item>
+        <item name="android:textColor">#FFEBEE</item>
+    </style>
+
+    //CheckBox
+    <style name="CheckBoxes">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">32dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#B71C1C</item>
+    </style>
+
+    <style name="Header">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">24dp</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:textColor">#B71C1C</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Questions">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:layout_marginTop">25dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:background">#F44336</item>
+        <item name="android:textColor">#FFEBEE</item>
+    </style>
+</resources>

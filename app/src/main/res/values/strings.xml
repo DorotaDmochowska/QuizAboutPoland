@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Poland Quiz</string>
+
+
+    //Questions
+    <string name="check">What do you know about Poland?</string>
+    <string name="capital_question">Which city is capital of Poland?</string>
+    <string name="dishes">Which dishes are most popular in Poland? (3 correct answers)</string>
+    <string name="religion">Which religion is most popular in Poland?</string>
+    <string name="zubr">In which part of Poland you can see bison?</string>
+    <string name="border">Which witch countries Poland has borders?</string>
+    <string name="polonez">What is Polonez?</string>
+    <string name="flag">How does the Polish flag looks like?</string>
+    <string name="aboutPope">Who was Karol Wojtyła?</string>
+
+    //Answers
+    <string name="pierogi">Staffed dumplings</string>
+    <string name="pasta">Pasta</string>
+    <string name="schabowy">Pork chop with mash potatoes</string>
+    <string name="fish_chips">Fish and chips</string>
+    <string name="pancakes">Pancakes</string>
+    <string name="bigos">Cabbage with sausage</string>
+
+    <string name="islam">Islam</string>
+    <string name="christianity">Christianity</string>
+    <string name="judaism">Judaism</string>
+
+    <string name="bialowieza">Białowieża National Park</string>
+    <string name="bieszczady">Bieszczady Mountains</string>
+    <string name="ojcow">Ojców National Park</string>
+    <string name="wolin">Wolin National Park</string>
+
+    <string name="border1">Spain, Greece, France, Portugal </string>
+    <string name="border2">China, Iraq, Turkey, Yemen</string>
+    <string name="border3">Chech Republic, Slovakia, Ukraine, Germany, Russia, Lithuania, Belarus</string>
+    <string name="border4">Finland, Russia, Estonia </string>
+
+    <string name="plant">Plant</string>
+    <string name="city">City</string>
+    <string name="drink">Drink</string>
+    <string name="dance">Dance</string>
+
+    <string name="pope">Pope</string>
+    <string name="actor">Actor</string>
+    <string name="singer">Singer</string>
+    <string name="scientist">Scientist</string>
+</resources>
