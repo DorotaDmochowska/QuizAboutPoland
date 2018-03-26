@@ -12,10 +12,9 @@ public class MainActivity extends AppCompatActivity {
 
     int score = 0;
 
-    private RadioButton  christianityRadioButton, danceRadioButton, popeRadioButton;
+    private RadioButton  christianityRadioButton, danceRadioButton, popeRadioButton, bialowiezaRadioButton, borderRadioButton, polandRadioButton;
     private EditText capitalText;
-    private CheckBox pierogiCheckBox, schabowyCheckBox, bigosCheckBox, bialowezaCheckBox, borderCheckBox,
-            polandCheckBox;
+    private CheckBox pierogiCheckBox, schabowyCheckBox, bigosCheckBox;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,13 +29,13 @@ public class MainActivity extends AppCompatActivity {
 
        christianityRadioButton = (RadioButton) findViewById(R.id.christianity);
 
-       bialowezaCheckBox = (CheckBox) findViewById(R.id.bialowieza);
+       bialowiezaRadioButton = (RadioButton) findViewById(R.id.bialowieza);
 
-       borderCheckBox = (CheckBox) findViewById(R.id.border);
+       borderRadioButton = (RadioButton) findViewById(R.id.border);
 
        danceRadioButton = (RadioButton) findViewById(R.id.dance);
 
-       polandCheckBox = (CheckBox) findViewById(R.id.poland);
+       polandRadioButton = (RadioButton) findViewById(R.id.poland);
 
        popeRadioButton = (RadioButton) findViewById(R.id.pope);
     }
@@ -83,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onCheckBoxBison() {
-        boolean isBialowieza = bialowezaCheckBox.isChecked();
+        boolean isBialowieza = bialowiezaRadioButton.isChecked();
 
         if(isBialowieza) {
             score += 1;
@@ -91,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onCheckBoxBorder() {
-        boolean isBorder = borderCheckBox.isChecked();
+        boolean isBorder = borderRadioButton.isChecked();
 
         if(isBorder) {
             score +=1;
@@ -107,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onCheckBoxFlag() {
-        boolean isPoland = polandCheckBox.isChecked();
+        boolean isPoland = polandRadioButton.isChecked();
 
         if(isPoland) {
             score += 1;
